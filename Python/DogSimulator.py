@@ -6,7 +6,6 @@ class Dog:
     self.temperment = temperment
     self.food = food
     self.medications = medications
-
-myDog = Dog("Tetra", 2, "female", "shy", "Nature's Abundance", "none")
-print(myDog)
-print(myDog.age)
+  
+  def bark(self):
+    print("Woof!")

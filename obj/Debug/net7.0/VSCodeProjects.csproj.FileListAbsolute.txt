@@ -1,0 +1,15 @@
+C:\Users\SAAS_User\VSCodeProjects\bin\Debug\net7.0\VSCodeProjects.exe
+C:\Users\SAAS_User\VSCodeProjects\bin\Debug\net7.0\VSCodeProjects.deps.json
+C:\Users\SAAS_User\VSCodeProjects\bin\Debug\net7.0\VSCodeProjects.runtimeconfig.json
+C:\Users\SAAS_User\VSCodeProjects\bin\Debug\net7.0\VSCodeProjects.dll
+C:\Users\SAAS_User\VSCodeProjects\bin\Debug\net7.0\VSCodeProjects.pdb
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.csproj.AssemblyReference.cache
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.AssemblyInfoInputs.cache
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.AssemblyInfo.cs
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.csproj.CoreCompileInputs.cache
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.dll
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\refint\VSCodeProjects.dll
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.pdb
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\VSCodeProjects.genruntimeconfig.cache
+C:\Users\SAAS_User\VSCodeProjects\obj\Debug\net7.0\ref\VSCodeProjects.dll
