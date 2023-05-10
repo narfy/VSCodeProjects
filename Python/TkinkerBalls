@@ -1,0 +1,72 @@
+#Import the library
+from tkinter import *
+from time import sleep
+
+#Create an instance of tkinter frame
+window = Tk()
+
+#Define the geometry of window
+window.geometry("600x400")
+
+#Create a canvas object
+c = Canvas(window, width=600, height=400)
+c.pack()
+
+objNum = []
+ticks = 0
+
+class Wave:
+
+    def __init__(self, xPos, yPos, size, color, tickmin):
+        self.x = xPos
+        self.y = yPos
+        self.size = size
+        self.color = color
+        self.tickmin = tickmin
+
+        self.xspeed = 0
+        self.yspeed = 1
+
+    def draw(self):
+
+        #Draw an oval in the canvas
+        c.create_oval(self.x, self.y, self.x+self.size, self.y+self.size, fill=self.color)
+
+    def move(self):   
+        if ticks > self.tickmin:
+            if self.y > 200:
+
+                self.yspeed = self.yspeed - 1
+
+            if self.y <= 200:
+
+                self.yspeed = self.yspeed + 1
+
+            self.x += self.xspeed
+            self.y += self.yspeed
+
+        self.draw()
+
+ySt = 300
+xSt = 50
+minticks = 0
+
+wavelen = input("How many balls do you want?\n")
+wavelen = int(wavelen)
+
+for i in range(wavelen):
+
+    newObj = Wave(xSt, ySt, 20, "blue", minticks)
+
+    xSt = xSt + 30
+    minticks += 5
+
+    objNum.append(newObj)
+
+while True:
+    ticks += 1
+    for w in objNum:
+        w.move()
+    window.update()
+    sleep(0.04)
+    c.delete("all")
